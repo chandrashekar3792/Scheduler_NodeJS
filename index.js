@@ -8,4 +8,13 @@ schedule.scheduleJob(newDate, function(){
   console.log('The world is going');
 });
 
+schedule.scheduleJob('42 * * * *', function(){
+  console.log('Recurring scheduler jon');
+});
+
+schedule.scheduleJob(newDate, function(){
+  console.log('The world is going');
+});schedule.scheduleJob(newDate, function(){
+  console.log('The world is going');
+});
 app.listen(8000);
